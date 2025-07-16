@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        nav{
+            border: 2px solid black;
+            position:sticky;
+            top: 0;
+            z-index: 10;
+            padding:5px;
+            background-color:#1e3a8a;
+        }
+        a{
+            padding: 15px;
+            text-decoration: none;
+            background-color: white;
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+        a:hover{
+            color: white;
+            background-color: rgb(232, 95, 9) ;
+        }
+         .icons a:hover{
+            color: black !important;
+            background-color: transparent !important ;
+        }
+        nav>ol{
+            list-style: none;
+            padding: 9px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            
+        }
+        .logo{
+            text-align:center;
+            text-transform: uppercase;
+            border: 2px solid black;
+            padding: 10px;
+            background-color: rgb(232, 95, 9);
+            color: white;
+            }
+        section{
+            border: 2px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        #about:hover{
+           /* background-color: burlywood;*/
+            color: crimson;
+        }
+        #Education>p{
+            align-items: center;
+            text-transform:capitalize ;
+            font-size: medium    ;
+            font-weight: normal;
+        }
+        .projects{
+            display: flex;
+            flex-direction: row;
+            padding: 10px;
+            justify-content: space-evenly;
+        }
+        button{
+            border: 2px solid black;
+            padding: 10px 20px;
+            padding: 10px;  
+        }
+        button:hover{
+             color: white;
+            background-color: rgb(232, 95, 9) ;
+            box-shadow: 1px 1px 1px 0.5px;
+
+        }
+       /* .header{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 30px 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 100;
+         }*/
+        #Contact>div{
+            text-align: center;
+            font-size: large;
+        }
+        #home{
+            background-color: burlywood;
+            background-size: cover;
+             padding: 160px;
+            height: 50vh;
+        }
+        #about{
+            background-color: rgb(229, 219, 109);
+            background-size: cover;
+            padding: 160px;
+            height: 100vh;
+        }
+        #Education{
+            background-color: rgb(234, 141, 207);
+            background-size: cover;
+            padding: 120px;
+            height: 80vh;
+        }
+        #allprojects{
+            background-color: rgb(229, 219, 109);
+            background-size: cover;
+            padding: 130px;
+            height:70vh;
+        }
+        
+        #Contact{
+            background-color: cornsilk;
+            background-size: cover;
+            padding: 160px;
+            height: 29vh;
+        }
+        #Education:hover{
+            color: white;
+        }
+        #Contact>#details:hover{
+            color:crimson;
+        }
+        .icons{
+            display: flex;
+            justify-content: center ;
+            gap: 20px;
+        } 
+
+        .icons i{
+            border: 2px solid black;
+            align-items: center;
+           padding: 15px;
+            height:20px;
+            width: 20px;
+            border-radius: 50%;
+            color: black !important;
+        }
+        .icons a{
+            padding: 15px;
+            text-decoration: none;
+            background-color:transparent !important;
+            border-radius: 0px !important;
+            border: 0px !important;
+        }
+        .icons i:hover{
+            background-color:rgb(232, 95, 9) !important;
+            color: white !important;
+        }
+        section:hover{
+           color:crimson; 
+        }
+    </style>
+</head>
+<body style="margin: 0px;">
+    <nav>
+       <div class="logo">Boyina Bhavani</div>
+        <ol>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#allprojects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ol>
+    </nav>
+    <section id="home" class="section">
+        <h2>Hi I am Boyina Bhavani</h2>
+        <p>I am a Software Developer<br>SKILLS:<br>
+ Python<br>
+ HTML<br>
+ CSS<br> JAVASCRIPT</p>
+    </section>
+    <section id="about" class="section">
+        <h1>Introduction to MySelf</h1>
+        <p>My Name is Bhavani and I am studying in Chebrolu Engineering college.I would like to introduce about my skills.I learned backend and Frontend languages.i learned Backend Languages like Python and Java Basics and Frontend Languages like HTML,CSS,JAVASCRIPT.Y. I am excited to use my skills and wanted to experience new
+things ahead.I have participated in some internships.<br>HOBBIES:
+<br>➢ Coding on Different Platforms like Leetcode, Codevita, Hackerrank.
+<br>➢ Participating coding quizzes
+<br>➢ Building Small Applications for fun
+<br>➢ Reading books
+<br>➢ Listening and Singing Songs
+<br>➢ Dancing
+<br>➢ Drawings etc.,
+<br>➢ Learning new languages
+<br>LANGUAGES known:<br>
+➢ English<br>
+➢ Telugu<br><br>
+<button onclick="document.getElementById('allprojects').scrollIntoView({behavior:'smooth'})">view Projects</button>
+        </p>
+    </section>
+    <section id="Education" class="section">
+        <h1>EDUCATION:</h1>
+<div>➢ 2022-2026 :: B.Tech in RV Institute of Technology, Chebrolu, Guntur, Andhrapradesh.<br>
+➢ 2020-2022 :: Intermediate in B.H.H.G Jr College, Guntur, Andhrapradesh.<br>
+➢ 2015-2020 :: SSC(6-10) in B.H.H.G.H School, Guntur, Andhrapradesh.<br>
+➢ 2010-2015 :: SSC(1-5) in Sri Pandu Ranga Vidyalayam, Guntur, Andhrapradesh.<br></div><br>
+<p>Currently I am a STUDENT studying in B.Tech. I want to Build Myself by using my skills.
+I want to experience the journey with you all ahead.
+I have participated in some internships.<br>
+INTERNSHIPS:<br>
+PYTHON FULL STACK:
+May 2024 – July 2024
+I have successfully completed 6 week Short-Term internship on PYTHON FULL STACK organized
+by ExcelR Edtech pvt.Ltd. in collaboration with Andhra Pradesh State Council of Higher
+Educatation<br>
+DevOps:
+September 2024 – September 2024
+Completed an intensive 6 days DevOps workshop focusing on CI/CD,automation.<br>
+PARTICIPATION:
+• NEXTWAVE :: Participated in the workshop ‘AI for Students :Build your Own
+Generative AI Model’ conducted by AI expert and IIT Delhi alumnus, Mr
+Trivikrama.<br>
+• TATA CRUCIBLE :: Participated in the TATA Crucible Campus Quiz 2024
+Organized by TATA Group From Unstop.</p>
+
+
+    </section>
+    <section id="allprojects" class="section">
+        <p>Small Projects:<br>
+I have built mini projects on the basis of my knowledge about HTML, CSS as a fresher and I’m
+also excited to know more and want to build many more projects based on Frontend.
+The small Projects I have built:<br>
+➢ FORMS:
+I have built Many Forms example Storing Student information that consists of Name,
+Age, Numbers. For this I have used many components
+SIMPLE FORM and LOGIN FORM: I have built Login forms and Simple forms using many
+components like radio buttons, checklists, dropdown, uploading files, storing address,
+calendar, uploading photo etc.,<br>
+➢ CALCULATOR:
+I have built front view of Calculator using Grid-Container component and emojis etc
+which gives calculator vibes. I ‘m working on the Deployment phase. Once deployment is
+done then it will be available to use.I am currently building small applications</p><br>
+<div class="projects">
+    <div class="project"><a href="https://github.com/BhavaniBoyina/Interactive-Quiz-Application/blob/main/README.md">Internship project-1</a></div>
+    <div class="project"><a href="https://github.com/BhavaniBoyina/Real-Time-Chat-Application">Internship project-2</a></div>
+</div>
+    </section>
+    <section id="Contact" class="section">
+       <div id="details"> BHAVANI BOYINA<br>
+Email: bhavaniboyina2004@gmail.com<br>
+Ph no: +91 0000000000<br></div>
+<div class="icons">
+  <a href="https://www.linkedin.com/in/bhavani-boyina-b1a97b348?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <h1><i class="bi bi-linkedin"></i></h1></a> 
+  <a href="https://www.boyinabhavani2004@gmail.com"> <h1><i class="bi bi-envelope"></i></h1></a> 
+  <a href="https://www.instagram.com/bhavani_2_22019?igsh=bGF6OTM0Y3U0dnVr"><h1><i class="bi bi-instagram"></i></h1></a> 
+</div>
+    </section>
+</body>
+</html>
