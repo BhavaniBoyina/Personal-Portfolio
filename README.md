@@ -23,3 +23,10 @@ Deliverable and Certification Upon successful completion of this task, interns a
 
 OUTPUT:
 
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6b4348e8-9b28-4515-8641-b50014890eb6" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d265fa1d-a2fd-4c54-82ce-0571834c2852" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/6d092160-c71f-4fd9-8e1a-7681872ecb2b" />
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e67b0ca0-03f3-4138-821e-f1a68226d52e" />
